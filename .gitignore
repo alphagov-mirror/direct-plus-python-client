@@ -1,0 +1,9 @@
+.eggs/
+*.egg-info/
+*.py[cod]
+__pycache__/
+.cache
+.pytest_cache
+venv*
+.hypothesis
+.coverage

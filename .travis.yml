@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+install:
+  - make requirements-dev
+script:
+  - make test PYTEST_ARGS="--cov=direct_plus_python_client --cov-report=term-missing"
+after_success:
+  - coveralls
+notifications:
+  email: false

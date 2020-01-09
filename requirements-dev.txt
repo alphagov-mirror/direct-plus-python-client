@@ -1,0 +1,4 @@
+coveralls==1.8.1
+flake8==3.7.7
+pytest==4.6.3
+pytest-cov==2.8.1
